@@ -1,3 +1,6 @@
+.navbar {
+  padding-top: 20px; }
+
 .navbar-brand {
   font-size: 1.75rem; }
 
@@ -5,7 +8,7 @@
   text-transform: uppercase;
   font-size: 0.9rem; }
   .nav-link:hover {
-    border-bottom: 0.5px solid #000; }
+    text-decoration: underline; }
 
 .justified {
   margin-top: 40px;
@@ -16,26 +19,31 @@
   font-weight: 300;
   font-size: 3rem;
   color: #000;
-  text-align: center; }
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase; }
 
 .heading, .subscript {
   text-align: center; }
 
+.heading {
+  font-family: "PlayFair Display", serif; }
+
 .subscript {
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300; }
 
 .summary {
+  font-family: "Open Sans Condensed", sans-serif;
   font-weight: 300;
   text-align: justify; }
 
-.list-item {
-  text-transform: uppercase; }
+.more {
+  font-family: "PlayFair Display", serif; }
 
-input::placeholder {
+input::placeholder, textarea::placeholder, select {
   font-weight: 300;
+  font-family: "Open Sans Condensed", sans-serif;
   color: #ccc; }
-
-::-webkit-input-placeholder {
-  color: red; }
 
 /*# sourceMappingURL=application.css.map */
