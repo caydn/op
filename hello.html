@@ -11,30 +11,60 @@
     <link rel="stylesheet" href="css/application.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <span class="navbar-brand mb-0 h1">OP</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="clients.html">clients<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+              <a class="nav-link" href="clients.html">clients</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="story.html">story</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="hello.html">hello</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="hello.html">hello<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
       </nav>
       <main class="container-fluid">
         <div class="row justify-content-center">
-          <div class="col-lg-8 ">
-            <h1 class="heading">Welcome</h1>
-            <p class="subscript">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <div class="col-lg-4 justified ">
+            <h2 class="heading">Hello There!</h2>
+            <p class="subscript">I'm always eager to meet and talk to new people. Feel free to leave a comment, business inquiry, ask a question or just say hello!</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6">
+            <form>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter Your fullname">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email so I can reply to you">
+              </div>
+              <div class="form-group">
+                <select class="form-control" id="exampleSelect1">
+                  <option>Select a Subject</option>
+                  <option>general</option>
+                  <option>business inquiry</option>
+                  <option>support</option>
+                  <option>other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="if you selected other write subject here"></input>
+              </div>
+              <div class="form-group">
+
+                <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Your space to speak..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary float-right">Submit</button>
+            </form>
           </div>
         </div>
       </main>

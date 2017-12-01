@@ -1,3 +1,25 @@
+.justified {
+  margin-top: 40px;
+  padding-top: 50px; }
 
+.client_brands {
+  list-style-type: none;
+  font-weight: 300;
+  font-size: 3rem;
+  color: #000;
+  text-align: center; }
+
+.heading, .subscript {
+  text-align: center; }
+
+.subscript {
+  font-weight: 300; }
+
+.summary {
+  font-weight: 300;
+  text-align: justify; }
+
+.list-item {
+  text-transform: uppercase; }
 
 /*# sourceMappingURL=application.css.map */
